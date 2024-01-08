@@ -128,6 +128,7 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ 
 
 /* adattamento Tablet */
 
@@ -143,9 +144,6 @@ img {
 /* adattamento smartphone */
 
 @media screen and (max-width:480px) {
-    .steps .text-center {
-        margin: 0;
-    }
 
     .steps {
         margin: 0;
@@ -184,6 +182,14 @@ img {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    
+}
+
+
+@media screen and (max-width: 1160px) {
+    .container {
+        max-width: 100%;
     }
     
 }
